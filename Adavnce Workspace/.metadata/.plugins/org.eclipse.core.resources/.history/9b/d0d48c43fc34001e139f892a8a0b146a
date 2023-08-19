@@ -1,0 +1,24 @@
+package in.co.rays.Marksheet;
+
+public class TestMarksheet {
+	 public static void main(String[] args) {
+		
+		 
+		testAdd();
+		 
+	}
+public static void testAdd() throws Exception {
+	 
+	 MarksheetBean bean = new  MarksheetBean();
+	 bean.setId(22);
+	 bean.setName("khusi");
+	 bean.setRollNo(122);
+	 bean.setPhysics(78);
+	 bean.setChemistry(78);
+	 bean.setMaths(90);
+	 
+	 MarksheetModel model = new MarksheetModel();
+	 model.add(bean);
+	
+	
+}

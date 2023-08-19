@@ -1,0 +1,34 @@
+package in.co.rays.bundle;
+
+import java.util.ResourceBundle;
+
+public class TestBundle {
+		
+		public static void main(String[] args) throws Exception {
+			
+		
+           ResourceBundle rb = ResourceBundle.getBundle("in.co.rays.bundle.app_sp");
+			
+		   	  System.out.println(rb.getString("spa"));
+
+		   	  
+		   	  
+//		      System.out.println(rb.getString("Url"));
+//			  System.out.println(rb.getString("User"));
+//			  System.out.println(rb.getString("Password"));
+//			  System.out.println(Integer.parseInt(rb.getString("Acquire")));
+//			  System.out.println(Integer.parseInt(rb.getString("Initial")));
+//			  System.out.println(Integer.parseInt(rb.getString("Maximum")));
+//			 
+//			
+			
+		}
+
+	
+			
+				
+
+	}
+
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Advancejava&apos;&#x0D;&#x0A;- Original project: &apos;Advancejava&apos;&#x0D;&#x0A;- Original element: &apos;Advancejava/src/in.co.rays.TestAdd&apos;" description="Delete element" element1="/src&lt;in.co.rays.TestAdd" element2="/src&lt;in.co.rays" element3="/src&lt;in.co" element4="/src&lt;in" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1691219211291" subPackages="false" version="1.0"/>
+</session>

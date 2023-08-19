@@ -1,0 +1,9 @@
+package in.co.rays.Ctl;
+
+import javax.servlet.http.HttpServlet;
+
+public class LoginCtl extends HttpServlet {
+	
+	
+
+}

@@ -1,0 +1,35 @@
+package in.co.rays.Ctl;
+
+import java.io.IOException;
+import java.rmi.ServerException;
+import java.text.SimpleDateFormat;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class UserCtl  extends HttpServlet {
+	
+@Override
+  protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+
+}
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+			 String firstName = req.getParameter("firstName");
+			 String lastName = req.getParameter("lastName");
+			 String loginId = req.getParameter("loginId");
+			 String password = req.getParameter("password");
+			 String dob = req.getParameter("dob");
+			 String addresh = req.getParameter("addresh");
+			 
+			 SimpleDateFormat sdf =  new SimpleDateFormat("dd-MM-yyyy");
+	
+	
+	
+	}
+
+}

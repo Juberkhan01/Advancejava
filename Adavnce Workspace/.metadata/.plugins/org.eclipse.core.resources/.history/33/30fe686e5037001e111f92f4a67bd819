@@ -1,0 +1,13 @@
+
+package in.co.rays.User;
+
+public class UserModel {
+
+	
+	
+		 public void add(UserBean bean) throws Exception{
+			 
+			 
+			 
+		 }
+}

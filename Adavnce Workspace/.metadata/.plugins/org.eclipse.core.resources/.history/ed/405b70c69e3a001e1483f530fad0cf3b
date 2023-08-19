@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ 				<form action ="Welcome.jsp" method = post>
+		<table>
+		
+		 <h5> REGISTER BELOW SIDE </h5>
+	<tr>
+ 
+ <th>firstName : </th>
+	 <td><input type  = "text"  placeholder = "enter your  first name " name = "firstName"> </td>
+ 
+	</tr>
+<tr>
+ 
+ <th>lastName : </th>
+ <td><input type  = "text"  placeholder = "enter your last name "name = "lastName"> </td>
+ 
+</tr>
+	<tr>
+ 
+ <th>loginId : </th>
+ <td><input type  = "text"  placeholder = "enter your email ID" name = "loginId"> </td>
+ 
+	</tr>
+<tr>
+ 
+ <th>password : </th>
+ <td><input type  = "password"  placeholder = "enter your password" name = "password"> </td>
+ 
+</tr>
+
+<tr>
+ 
+ <th>DOB : </th>
+ <td><input type  = "date"  name = "dob"> </td>
+ 
+</tr>
+<tr>
+ 
+ <th>addresh: </th>
+ <td><input type  = "text"  Placeholder = "enter your addresh" name = "addresh"> </td>
+ 
+</tr>
+<tr>
+ 
+ <th> </th>
+ <td><input type  = "submit" values = "singup"> </td>
+ 
+</tr>
+			</table>
+	</form>
+
+</body>
+</html>

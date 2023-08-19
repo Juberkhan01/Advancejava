@@ -1,0 +1,40 @@
+package in.co.rays.test;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class TestUpdateTry {
+	public static void main(String[] args) throws Exception {
+		
+	Connection conn = null;
+	try {
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		
+	  Connection conn = DriverManager.getConnection("jdbc:mysql://locahost:3306/advancejava", "root", "root");
+
+		conn.setAutoCommit(false);
+		
+		Statement stmt = conn.createStatement();
+		
+		int i = stmt.executeUpdate("update marksheet set maths = 50 where  id = 6");
+		
+		System.out.println(i);
+		
+		conn.commit();
+		
+		
+	} catch (Exception e) {
+		
+		conn.rollback();
+		
+		System.out.println(e);
+		
+	}
+	
+	}
+	
+
+}
+

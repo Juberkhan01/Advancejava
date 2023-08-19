@@ -1,0 +1,42 @@
+package in.co.rays.Marksheet;
+
+public class MTest {
+	public static void main(String[] args) throws Exception {
+		
+		//testadd();
+		testupdate();
+	}
+
+	
+	public static void  testadd() throws Exception{
+		
+		MBPractice bean = new MBPractice();
+		
+		bean.setId(22);
+		bean.setName("srk");
+		bean.setRollNo(121);
+		bean.setPhysics(90);
+		bean.setChemistry(100);
+		bean.setMaths(100);
+		
+		MMpractice model = new MMpractice();
+		
+		model.add(bean);
+		
+	}
+	
+	public static void testupdate() throws Exception{
+		
+		MBPractice bean = new MBPractice();
+		
+		bean.setName("salaman");
+		bean.setRollNo(118);
+		bean.setPhysics(100);
+		bean.setChemistry(100);
+		bean.setMaths(100);
+		bean.setId(22);
+		
+		MMpractice model = new MMpractice();
+		model.update(bean);
+	}
+}

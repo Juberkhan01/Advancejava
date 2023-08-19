@@ -1,0 +1,23 @@
+<%@page import="in.co.rays.Bean.UserBean"%>
+<%@page import="java.text.SimpleDateFormat"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+<h1><%= firstName %></h1>
+<h1><%= lastName %></h1>
+<h1><%= loginId %></h1>
+<h1><%= password %></h1>
+<h1><%=  dob%></h1>
+<h1><%= addresh %></h1>
+
+</body>
+</html>

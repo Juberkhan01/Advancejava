@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [16/Aug/2023:17:47:38 +0530] "GET /DynamicProject/UserRegistration.jsp HTTP/1.1" 200 1581
+0:0:0:0:0:0:0:1 - - [16/Aug/2023:19:00:29 +0530] "GET /DynamicProject/UserRegistration.jsp HTTP/1.1" 200 1581
+0:0:0:0:0:0:0:1 - - [16/Aug/2023:19:00:30 +0530] "GET /DynamicProject/UserRegistration.jsp HTTP/1.1" 200 1581
+0:0:0:0:0:0:0:1 - - [16/Aug/2023:19:00:31 +0530] "GET /DynamicProject/UserRegistration.jsp HTTP/1.1" 200 1581
+127.0.0.1 - - [16/Aug/2023:19:00:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Aug/2023:19:00:43 +0530] "GET /DynamicProject/servlet/in.co.rays.Ctl.UserCtl HTTP/1.1" 404 804
+0:0:0:0:0:0:0:1 - - [16/Aug/2023:19:00:48 +0530] "GET /DynamicProject/UserRegistration.jsp HTTP/1.1" 200 1581

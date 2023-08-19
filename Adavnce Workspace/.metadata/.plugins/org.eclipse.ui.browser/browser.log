@@ -1,0 +1,29 @@
+
+Aug 14, 2023 14:40:22.00 NEW SESSION
+Aug 14, 2023 14:40:22.00 [11696:10768:0814/144022.000:ERROR:device_event_log_impl.cc(222)] [14:40:21.998] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 14, 2023 14:40:22.55 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Aug 14, 2023 17:14:29.21 NEW SESSION
+Aug 14, 2023 17:14:29.21 [8584:9008:0814/171429.213:ERROR:device_event_log_impl.cc(222)] [17:14:29.213] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 14, 2023 17:14:29.92 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Aug 14, 2023 22:58:09.46 NEW SESSION
+Aug 14, 2023 22:58:09.46 [7304:9972:0814/225809.454:ERROR:device_event_log_impl.cc(222)] [22:58:09.454] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 14, 2023 22:58:10.10 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 14, 2023 22:59:23.21 [3912:4540:0814/225923.218:ERROR:device_event_log_impl.cc(222)] [22:59:23.218] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 14, 2023 22:59:23.89 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 15, 2023 24:07:23.08 [3912:5068:0815/000723.080:ERROR:cert_verify_proc_builtin.cc(677)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+Aug 15, 2023 24:07:23.08 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+Aug 15, 2023 24:07:23.08 ERROR: Time is after notAfter
+Aug 15, 2023 24:07:23.08 
+Aug 15, 2023 24:07:23.08 
+Aug 16, 2023 02:14:18.80 [3912:4540:0816/021418.799:ERROR:device_event_log_impl.cc(222)] [02:14:18.803] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Aug 18, 2023 13:28:50.49 NEW SESSION
+Aug 18, 2023 13:28:50.49 [11616:10200:0818/132850.486:ERROR:device_event_log_impl.cc(222)] [13:28:50.485] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 18, 2023 13:28:51.44 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 18, 2023 14:58:29.06 [3412:8160:0818/145829.059:ERROR:device_event_log_impl.cc(222)] [14:58:29.060] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 18, 2023 14:58:30.22 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 18, 2023 17:18:05.09 [3412:8160:0818/171805.097:ERROR:device_event_log_impl.cc(222)] [17:18:05.097] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Aug 18, 2023 17:18:17.62 [3412:8160:0818/171817.622:ERROR:device_event_log_impl.cc(222)] [17:18:17.622] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Aug 18, 2023 17:36:18.31 [3412:8160:0818/173618.317:ERROR:gpu_process_host.cc(942)] GPU process exited unexpectedly: exit_code=34

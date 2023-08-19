@@ -1,0 +1,71 @@
+package in.co.rays.Bundle;
+
+
+	
+
+
+	import java.sql.Connection;
+	import java.sql.PreparedStatement;
+	import java.sql.ResultSet;
+	import java.util.ResourceBundle;
+
+import in.co.rays.Util.JDBCDataSource;
+
+	
+
+	public class TestBundle {
+		
+		public static void main(String[] args) throws Exception {
+			
+			for (int i = 1; i <= 10; i++) {
+				
+				testget();
+				
+				
+				System.out.println("Deepak patidar - MrDk" + i);
+				System.out.println();
+			}
+			
+			
+			ResourceBundle rb = ResourceBundle.getBundle("in.co.rays.bundle");
+			
+			System.out.println(rb.getString("greeting"));
+			/*
+			 * System.out.println(rb.getString("Url"));
+			 * System.out.println(rb.getString("User"));
+			 * System.out.println(rb.getString("Password"));
+			 * System.out.println(Integer.parseInt(rb.getString("Acquire")));
+			 * System.out.println(Integer.parseInt(rb.getString("Initial")));
+			 * System.out.println(Integer.parseInt(rb.getString("Maximum")));
+			 */
+			
+			
+		}
+
+		private static void testget() throws Exception {
+			Connection conn = JDBCDataSource.getConnection();
+
+			PreparedStatement ps = conn.prepareStatement("select * from marksheet where id = 2");
+
+			ResultSet rs = ps.executeQuery();
+
+			while (rs.next()) {
+
+				System.out.print(rs.getInt(1));
+				System.out.print("\t" + rs.getString(2));
+				System.out.print("\t" + rs.getInt(3));
+				System.out.print("\t" + rs.getInt(4));
+				System.out.print("\t" + rs.getInt(5));
+				System.out.println("\t" + rs.getInt(6));
+
+			}
+
+			
+		}
+			
+				
+
+	}
+
+
+

@@ -1,0 +1,50 @@
+package in.co.rays.Marksheet;
+
+
+public class TestMarksheet {
+	 public static void main(String[] args) throws Exception {
+		
+		 
+		//testAdd();
+		//testupdate();
+		 testdelete();
+		 
+		 
+	}
+public static void testAdd() throws Exception {
+	 
+	 MarksheetBean bean = new  MarksheetBean();
+	 bean.setId(22);
+	 bean.setName("juber");
+	 bean.setRollNo(127);
+	 bean.setPhysics(78);
+	 bean.setChemistry(78);
+	 bean.setMaths(90);
+	 
+	 MarksheetModel model = new MarksheetModel();
+	 model.add(bean);
+}
+	public static void testupdate() throws Exception {
+
+	MarksheetBean bean = new  MarksheetBean();
+	
+	bean.setId(22);
+	bean.setName("jp");
+	bean.setRollNo(122);
+	bean.setPhysics(78);
+	bean.setChemistry(78);
+	bean.setMaths(90);
+	
+
+	MarksheetModel model = new MarksheetModel();
+	model.update(bean);
+	
+	
+}
+	public static void testdelete() throws Exception {
+	
+		MarksheetModel model = new MarksheetModel();
+		model.delete(21);
+	
+	}
+	}
